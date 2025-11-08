@@ -1,0 +1,38 @@
+name: slot_booking_bts
+description: BTS Concert Slot Booking Flutter App
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  google_fonts: ^6.1.0
+  lottie: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/bts_welcome.jpg
+    - assets/images/bts_event.jpg
+    - assets/images/bts_booking_bg.jpg
+    - assets/images/bts_confirm.jpg
+    - assets/images/bts_quote.jpg
+    - assets/images/bts_logo.jpg
+    - assets/images/qr_code.png
+    - assets/success.json
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/bts_logo.jpg"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/bts_logo.jpg"
